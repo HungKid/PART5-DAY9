@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Vocabulary Notebook</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    📒 My Vocabulary Notebook
+  </header>
+
+  <div class="container">
+    <button class="nav-btn" onclick="prevCard()">←</button>
+
+    <div class="flashcard" onclick="toggleCard()">
+      <div class="tape"></div>
+      <div class="card-inner">
+        <div class="card-front">
+          <img id="front-img" src="" alt="Image">
+          <h3 id="cloze" class="cloze"></h3>
+          <p id="definition" class="definition"></p>
+        </div>
+        <div class="card-back">
+          <img id="back-img" src="" alt="Image">
+          <h2 id="word" class="word"></h2>
+          <p id="ipa" class="ipa"></p>
+          <button onclick="playAudio(event)">🔊 Nghe phát âm</button>
+          <p id="meaning" class="meaning"></p>
+        </div>
+      </div>
+    </div>
+
+    <button class="nav-btn" onclick="nextCard()">→</button>
+  </div>
+
+  <footer class="footer">
+    ✨ Keep learning every day! ✨
+  </footer>
+
+  <!-- Ảnh trang trí -->
+
+  <img src="images/images(decorate)/img1.png" alt="img1" class="decorimage img1">
+  <img src="images/images(decorate)/img2.png" alt="img2" class="decorimage img2">
+  <img src="images/images(decorate)/cliprm.jpg" alt="clip" class=" decorelement clip"> 
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

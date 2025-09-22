@@ -9,7 +9,7 @@ const flashcards = [
         audio: "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dom/domes/domestic__us_2.mp3"
     },
     {
-      word: "dozen",
+      word: "dozen (n)",
       ipa: "/ˈdʌzn/",
       meaning: "Một tá (12 cái)",
       image: "images/images(word)/dozen.jpg",
@@ -18,7 +18,7 @@ const flashcards = [
       audio: "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/doz/dozen/dozen__us_3.mp3"
     },
     {
-      word: "enthusiastically",
+      word: "enthusiastically (adv)",
       ipa: "/ɪnˌθuːziˈæstɪkli/",
       meaning: "Nhiệt tình",
       image: "images/images(word)/enthusiastically.jpg",
@@ -27,39 +27,48 @@ const flashcards = [
       audio: "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/ent/enthu/enthusiastically__gb_1.mp3"
     },
     {
-      word: "separate",
-      ipa: "/ˈkaʊn.tər/",
-      meaning: "Quầy (thu ngân, bếp,...)",
-      image: "images/images(word)/counter.jpg",
-      audio: "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cou/count/counter__us_1.mp3"
+      word: "separate (adj)",
+      ipa: "/ˈseprət/",
+      meaning: "Riêng biệt",
+      image: "images/images(word)/separate.jpg",
+      cloze: "s _ _ _ _ _ _ e",
+      definition: "different; not connected",
+      audio: "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sep/separ/separate__us_1.mp3"
     },
     {
-      word: "sign",
+      word: "assort (v)",
       ipa: "/saɪn/",
-      meaning: "Biển báo",
+      meaning: "Phân loại",
       image: "images/images(word)/sign.jpg",
+      cloze: "a _ _ _ _ t",
       audio: "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sig/sign_/sign__us_1.mp3"
     },
     {
-      word: "rug",
-      ipa: "/rʌɡ/",
-      meaning: "Tấm thảm",
-      image: "images/images(word)/rug.jpg",
-      audio: "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rug/rug__/rug__us_1.mp3"
+      word: "costume (n)",
+      ipa: "/ˈkɑːstuːm/",
+      meaning: "Trang phục",
+      image: "images/images(word)/costume.jpg",
+      cloze: "c _ _ _ _ _ e",
+      definition: "the clothes worn by actors in a play or film, or worn by somebody to make them look like somebody/something else",
+      audio: "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cos/costu/costume__us_4.mp3"
     },
     {
-      word: "path",
-      ipa: "/pɑːθ/",
-      meaning: "Con đường nhỏ",
-      image: "images/images(word)/path.jpg",
-      audio: "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pat/path_/path__us_1.mp3"
+      word: "prohibit (v)",
+      ipa: "/prəˈhɪbɪt/",
+      meaning: "Cấm, ngăn cấm",
+      image: "images/images(word)/prohibit.jpg",
+      cloze: "p _ _ _ _ _ _ t",
+      definition: "to stop something from being done or used especially by law",
+      audio: "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/prohi/prohibit__us_1_rr.mp3"
     },
     {
-      word: "drawer",
-      ipa: "/drɔːr/",
-      meaning: "Ngăn kéo",
-      image: "images/images(word)/drawer.jpg",
-      audio: "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dra/drawe/drawer__us_1.mp3"
+      word: "renown (n)",
+      ipa: "/rɪˈnaʊn/",
+      meaning: "Danh tiếng",
+      image: "images/images(word)/renown.jpg",
+      cloze: "r _ _ _ _ n",
+      definition: "the state of being famous and receiving respect because of something you have done that people admire",
+      audio: "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/ren/renow/renown__us_1.mp3"
     },
     {
       word: "furniture",
@@ -69,25 +78,31 @@ const flashcards = [
       audio: "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fur/furni/furniture__us_2.mp3"
     },
     {
-      word: "ladder",
-      ipa: "/ˈlæd.ər/",
-      meaning: "Cái thang",
-      image: "images/images(word)/ladder.jpg",
-      audio: "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lad/ladde/ladder__us_1.mp3"
+      word: "emission (n)",
+      ipa: "/ɪˈmɪʃn/",
+      meaning: "Khí thải",
+      image: "images/images(word)/emission.jpg",
+      cloze: "e _ _ _ _ _ _ n",
+      definition: "the production or sending out of light, heat, gas, etc.",
+      audio: "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/emi/emiss/emission__us_1.mp3"
     },
     {
-      word: "gloves",
-      ipa: "/ɡlʌv/",
-      meaning: "Găng tay",
-      image: "images/images(word)/gloves.jpg",
-      audio: "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/glo/glove/glove__us_1.mp3"
+      word: "reinforcement (n)",
+      ipa: "/ˌriːɪnˈfɔːrsmənt/",
+      meaning: "Sự củng cố, sự tăng cường",
+      image: "images/images(word)/reinforcement.jpg",
+      cloze: "r _ _ _ _ _ _ _ _ _ _ _ t",
+      definition: "the act of making something stronger, especially a feeling or an idea",
+      audio: "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rei/reinf/reinforcement__us_1.mp3"
     },
     {
-      word: "cart",
-      ipa: "/kɑːt/",
-      meaning: "Xe đẩy",
-      image: "images/images(word)/cart.jpg",
-      audio: "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/car/cart_/cart__us_1.mp3"
+      word: "accidentally (adv)",
+      ipa: "/ˌæksɪˈdentəli/",
+      meaning: "Tình cờ, ngẫu nhiên",
+      image: "images/images(word)/accidentally.jpg",
+      cloze: "a _ _ _ _ _ _ _ _ _ _ y",
+      definition: "​by chance; in a way that was not planned",
+      audio: "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/acc/accid/accidentally__us_1.mp3"
     },
     {
       word: "instrument",
